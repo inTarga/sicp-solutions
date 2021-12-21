@@ -1,0 +1,2 @@
+#!/bin/sh
+echo | scheme --load $1 | tail -n +11 | head -n -5
